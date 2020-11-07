@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  1 NOV 2020 17:41
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  7 NOV 2020 18:15
  restricted system commands enabled.
 **blockchain_next_gen_energy_markets.tex
 (./blockchain_next_gen_energy_markets.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.364 seconds
+luaotfload | main : initialization completed in 0.303 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -277,12 +277,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (load luc: C:/Users/marti/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman9-regular.luc)(load luc: C:/Users/marti/.texlive2017/texmf-var/luatex-cac
 he/generic/fonts/otl/lmroman9-bold.luc)(load luc: C:/Users/marti/.texlive2017/te
-xmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: C:/Users/ma
-rti/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)
+xmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc) [1
+
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[3](load luc: C:/Users/marti/.texlive2017/texmf-var/luatex-cache/generic/fonts/o
+tl/lmroman10-italic.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 74.
+(Font)              <9> on input line 112.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 74.
+(Font)              <6> on input line 112.
 (load luc: C:/Users/marti/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman9-italic.luc)
 Package epstopdf Info: Source file: <fig1.eps>
@@ -293,29 +300,32 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    size: 36319 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf f
 ig1.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
-<fig1-eps-converted-to.pdf, id=1, 345.29pt x 142.5325pt>
+<fig1-eps-converted-to.pdf, id=17, 345.29pt x 142.5325pt>
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
-Package luatex.def Info: fig1-eps-converted-to.pdf  used on input line 98.
+Package luatex.def Info: fig1-eps-converted-to.pdf  used on input line 136.
 (luatex.def)             Requested size: 347.12354pt x 143.29115pt.
- [1
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+[]\TU/lmr/m/n/9 Eu-ro-pean Par-lia-ment Home-page, https://www.eu-roparl.eu-rop
+a.eu/Reg-
+ []
 
-{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2<./fig1-eps-co
-nverted-to.pdf>]
-[3] (./blockchain_next_gen_energy_markets.aux))
+[5<./fig1-eps-converted-to.pdf>] [6] (./blockchain_next_gen_energy_markets.aux))
+
 
 Here is how much of LuaTeX's memory you used:
- 2023 strings out of 494480
+ 2024 strings out of 494480
  100000,106986 words of node,token memory allocated
- 974 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 5 disc, 10 glue, 10 kern, 65 glyph, 11 attribute, 4
-9 glue_spec, 11 attribute_list, 1 write nodes
-   avail lists: 1:1,2:336,3:92,4:12,5:180,6:1827,7:578,8:39,9:100,10:8,11:166
- 6043 multiletter control sequences out of 65536+600000
+ 892 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 4 disc, 8 glue, 9 kern, 57 glyph, 10 attribute, 49 
+glue_spec, 10 attribute_list, 1 write nodes
+   avail lists: 1:1,2:288,3:63,4:31,5:220,6:3190,7:738,8:39,9:102,10:22,11:347
+ 6044 multiletter control sequences out of 65536+600000
  40 fonts using 2037575 bytes
- 41i,8n,25p,302b,320s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 41i,8n,25p,919b,323s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
 xlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf><c:/texlive/2
 017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/texm
@@ -324,12 +334,12 @@ nts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2017/texmf-dist/fonts/op
 entype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentyp
 e/public/lm/lmroman12-bold.otf><c:/texlive/2017/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb>
-Output written on blockchain_next_gen_energy_markets.pdf (3 pages, 91052 bytes).
+cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on blockchain_next_gen_energy_markets.pdf (6 pages, 111877 bytes)
+.
 
-
-PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+PDF statistics: 101 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
