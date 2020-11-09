@@ -89,78 +89,26 @@ Those challenges need to be effectively and efficiently tackled in the close fut
 
 \section{Blockchain in the Energy Sector}
 
+\subsection{Smart Grid}
+As the current electrical systems is not suitable for integrating the increasing amount of renewable energy sources in real-time into the wholesale market, a change of the current system to a smart grid should propose a brighter future. Smart grid systems aim for taking the locality of energy generators into account and thus empowers energy trading between prosumers and consumers within a local energy community. \cite{mengelkamp_lem}
+
+\subsubsection{Local energy market}
+approaches empowers the locality of generating, consuming and trading energy in a local market and therefore minimize transportation as well as scale down supply and demand balancing to a local network. Local energy markets claim to be more flexible regarding near real-time energy pricing and in choosing an energy supplier. Furthermore, their prospect a more transparent way sof energy consumption in general, but they are rather small-scale and geographically constrained. Moreover, local energy markets are very promising as the propose possible energy cost reduction and an advance of the local economy as revenue is kept withing the local community. This profit should be meant to be reinvested into renewable energy sources in order to boost the local energy community.\cite{mengelkamp_lem} \newline
+In order to provide a larger scale system, e.g. in national scale, multiple local energy markets could be interconnected, which comes with many advantages and open challenges to be address. Mengelkamp et al. \cite{mengelkamp_lem} analyzed and designed a decentralized local energy market that is based on Blockchain technology. They introduce a local energy market with an operational auction mechanism that defines prices based on entities’ transactions. Hence, prices indicate potential lack of locally generated energy which results in a local network imbalance.
+The introduced approach is the first that deals with a prosumer and consumer sided local energy market and focus on trading electricity from private photovoltaic systems.
+Blockchain technology is responsible for payment functionalities as well as the market mechanism which is described in the following. \newline
+The state of the current market is hold in a closed order book that has discrete market closing times. After such market clearing, the energy price for the next time slot is established and consumers can order electricity at the market price and retrieve the purchased amount of electricity, which is indeed a prosumer’s surplus that also participates in the local energy markets. In case of market imbalances, such that demand and supply cannot be completely addressed by the local energy market, entities have to trade electricity with electricity providers using the connected distribution grid. Thus, electricity providers are major contributors to the stability of the local energy system. Furthermore, the upper and lower market price limits are obtained from the distribution grid’s energy price and selling price. The market solution aims for minimizing the local energy markets demand of external grid electricity and therefore maximizes its self-consumption which further minimizes expensive transactions with the distribution grid. This grid acts as a prosumer which is able to issue an arbitrary amount of orders and bits within the system. 
+To forecast demand and supply, the respective Blockchain accounts store only information about demand and surplus of entities alongside with their financial balances, which further allows the system to calculate a user specific utility function that is taken into account in case of placing orders. Storing just overall surplus and demand should only have a minimum impact in users’ privacy, but sufficient for obtaining consumption patterns used for predictions. \cite{mengelkamp_lem} \newline
+Electricity payments are fulfilled by the system at clearing times and statistical market information is broadcasted to all market entities. Virtual trading of electricity does not directly influence the physical electricity exchange as this is done via the physical distribution grid itself. \newline
+The described local energy market has been simulated using 100 residential households and 15 minutes time slots between market clearings. The market mechanism itself has been implemented as smart contract which is executed on a private Ethereum Blockchain that uses PoW as consensus algorithm and payments as well as bids and orders were issued via the Blockchain. Consumers and prosumers are simulated which order or sell their surplus using their respective account at the Blockchain solution. \newline
+This system leads to cheaper electricity prices as they are a weighted combination of smaller local prices and the price of the electricity provider which is required in times of demand peaks. Another advantage is that it possibly empowers local residentials to install PV systems in order to also participate as prosumer due to the better selling prices. Application of Blockchain in such a market system lowers market prices, decentralizes the marked in general and yields a very high transparency level within the market. \cite{mengelkamp_lem}\newline
+This system cannot serve autarky as electricity providers are used to respond to network imbalances.
+Nevertheless, this system has severe scaling problems, high latency and a high energy consumption, as PoW is used as consensus algorithm. Therefore, a lot of improvements have to be made and technical challenges to be solved to make this system practically applicable.
+
+
+
 \section{Conclusion}
 
-\subsection{A Subsection Sample}
-Please note that the first paragraph of a section or subsection is
-not indented. The first paragraph that follows a table, figure,
-equation etc. does not need an indent, either.
-
-Subsequent paragraphs, however, are indented.
-
-\subsubsection{Sample Heading (Third Level)} Only two levels of
-headings should be numbered. Lower level headings remain unnumbered;
-they are formatted as run-in headings.
-
-\paragraph{Sample Heading (Fourth Level)}
-The contribution should contain no more than four levels of
-headings. Table~\ref{tab1} gives a summary of all heading levels.
-
-\begin{table}
-\caption{Table captions should be placed above the
-tables.}\label{tab1}
-\begin{tabular}{|l|l|l|}
-\hline
-Heading level &  Example & Font size and style\\
-\hline
-Title (centered) &  {\Large\bfseries Lecture Notes} & 14 point, bold\\
-1st-level heading &  {\large\bfseries 1 Introduction} & 12 point, bold\\
-2nd-level heading & {\bfseries 2.1 Printing Area} & 10 point, bold\\
-3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold\\
-4th-level heading & {\itshape Lowest Level Heading.} Text follows & 10 point, italic\\
-\hline
-\end{tabular}
-\end{table}
-
-
-\noindent Displayed equations are centered and set on a separate
-line.
-\begin{equation}
-x + y = z
-\end{equation}
-Please try to avoid rasterized images for line-art diagrams and
-schemas. Whenever possible, use vector graphics instead (see
-Fig.~\ref{fig1}).
-
-\begin{figure}
-\includegraphics[width=\textwidth]{fig1.eps}
-\caption{A figure caption is always placed below the illustration.
-Please note that short captions are centered, while long ones are
-justified by the macro package automatically.} \label{fig1}
-\end{figure}
-
-\begin{theorem}
-This is a sample theorem. The run-in heading is set in bold, while
-the following text appears in italics. Definitions, lemmas,
-propositions, and corollaries are styled the same way.
-\end{theorem}
-%
-% the environments 'definition', 'lemma', 'proposition', 'corollary',
-% 'remark', and 'example' are defined in the LLNCS documentclass as well.
-%
-\begin{proof}
-Proofs, examples, and remarks have the initial word in italics,
-while the following text appears in normal font.
-\end{proof}
-For citations of references, we prefer the use of square brackets
-and consecutive numbers. Citations using labels or the author/year
-convention are also acceptable. The following bibliography provides
-a sample reference list with entries for journal
-articles~\cite{ref_article1}, an LNCS chapter~\cite{ref_lncs1}, a
-book~\cite{ref_book1}, proceedings without editors~\cite{ref_proc1},
-and a homepage~\cite{ref_url1}. Multiple citations are grouped
-\cite{ref_article1,ref_lncs1,ref_book1},
-\cite{ref_article1,ref_book1,ref_proc1,ref_url1}.
 %
 % ---- Bibliography ----
 %
@@ -173,6 +121,12 @@ and a homepage~\cite{ref_url1}. Multiple citations are grouped
 \begin{thebibliography}{8}
 \bibitem{eu_energy_market}
 European Parliament Homepage, \url{https://www.europarl.europa.eu/RegData/etudes/BRIE/2016/593519/EPRS\_BRI(2016)593519\_EN.pdf}. Last accessed 7 Nov 2020
+
+\bibitem{mengelkamp_lem}
+E. Mengelkamp, B. Notheisen, C. Beer, D. Dauer, C. Weinhardt: A blockchain-based smart grid: towards sustainable local energy markets. In:  Computer Science - Research and Development, vol. 33, no. 1-2, pp. 207-214, 2018. \doi{10.1007/s00450-017-0360-9}
+
+\bibitem{ilic_smart_grid_neighbourhoods}
+D. Ilic, P. Goncalves Da Silva, S. Karnouskos, M. Griesemer: An energy market for trading electricity in smart grid neighbourhoods. In: 6th IEEE International Conference on Digital Ecosystems and Technologies, Campione d'Italia, Italy, pp. 1-6, 2012. \doi{10.1109/DEST.2012.6227918}
 
 \bibitem{ref_article1}
 Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
