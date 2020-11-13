@@ -46,6 +46,8 @@ The abstract should briefly summarize the contents of the paper in
 \subsection{Blockchain}
 
 \subsection{Smart Grid}
+As the current electrical systems is not suitable for integrating the increasing amount of renewable energy sources in real-time into the wholesale market, a change of the current system to a smart grid should propose a brighter future. Smart grid systems aim for taking the locality of energy generators into account and thus empower energy trading between prosumers and consumers within a local energy community. \cite{mengelkamp_lem}
+TODO: MORE EXPLANATION
 
 \section{Energy Markets Today}
 In order to be able to understand what problems currently exist and which could be tackled by application of Blockchain technology, it is very important to understand how electricity is traded nowadays and which parties are involved. Moreover, this is important to get a look into the challenges with the current system and which challenges will arise by the application of Blockchain technology or the implementation of a smart grid in general.
@@ -90,11 +92,8 @@ Those challenges need to be effectively and efficiently tackled in the close fut
 \section{Blockchain in the Energy Sector}
 This section aims for giving an overview of interesting and promising Blockchain based solutions within the energy section. Most solutions take advantage of the technology's promising properties to build decentralized energy markets that enable better integration for prosumers and renewable energy sources in general. Focusing on local neighbourhoods, this can decrease the electricity price and have other benefits for local participants in such systems. Other solutions incentivise renewable energy production and consumption through rewarding certain coins for positive participation in the system. After introducing interesting research in the field of Blockchain for energy systems, the arising challenges in the field are discussed.
 
-\subsection{Smart Grid}
-As the current electrical systems is not suitable for integrating the increasing amount of renewable energy sources in real-time into the wholesale market, a change of the current system to a smart grid should propose a brighter future. Smart grid systems aim for taking the locality of energy generators into account and thus empowers energy trading between prosumers and consumers within a local energy community. \cite{mengelkamp_lem}
-
-\subsubsection{Local energy market}
-approaches empowers the locality of generating, consuming and trading energy in a local market and therefore minimize transportation as well as scale down supply and demand balancing to a local network. Local energy markets claim to be more flexible regarding near real-time energy pricing and in choosing an energy supplier. Furthermore, their prospect a more transparent way sof energy consumption in general, but they are rather small-scale and geographically constrained. Moreover, local energy markets are very promising as the propose possible energy cost reduction and an advance of the local economy as revenue is kept withing the local community. This profit should be meant to be reinvested into renewable energy sources in order to boost the local energy community.\cite{mengelkamp_lem} \newline
+\subsection{Local energy market}
+Local energy market approaches empower the locality of generating, consuming and trading energy in a local market and therefore minimize transportation as well as scale down supply and demand balancing to a local network. Local energy markets claim to be more flexible regarding near real-time energy pricing and in choosing an energy supplier. Furthermore, their prospect a more transparent way sof energy consumption in general, but they are rather small-scale and geographically constrained. Moreover, local energy markets are very promising as the propose possible energy cost reduction and an advance of the local economy as revenue is kept withing the local community. This profit should be meant to be reinvested into renewable energy sources in order to boost the local energy community.\cite{mengelkamp_lem} \newline
 In order to provide a larger scale system, e.g. in national scale, multiple local energy markets could be interconnected, which comes with many advantages and open challenges to be address. Mengelkamp et al. \cite{mengelkamp_lem} analyzed and designed a decentralized local energy market that is based on Blockchain technology. They introduce a local energy market with an operational auction mechanism that defines prices based on entities’ transactions. Hence, prices indicate potential lack of locally generated energy which results in a local network imbalance.
 The introduced approach is the first that deals with a prosumer and consumer sided local energy market and focus on trading electricity from private photovoltaic systems.
 Blockchain technology is responsible for payment functionalities as well as the market mechanism which is described in the following. \newline
@@ -105,6 +104,31 @@ The described local energy market has been simulated using 100 residential house
 This system leads to cheaper electricity prices as they are a weighted combination of smaller local prices and the price of the electricity provider which is required in times of demand peaks. Another advantage is that it possibly empowers local residentials to install PV systems in order to also participate as prosumer due to the better selling prices. Application of Blockchain in such a market system lowers market prices, decentralizes the marked in general and yields a very high transparency level within the market. \cite{mengelkamp_lem}\newline
 This system cannot serve autarky as electricity providers are used to respond to network imbalances.
 Nevertheless, this system has severe scaling problems, high latency and a high energy consumption, as PoW is used as consensus algorithm. Therefore, a lot of improvements have to be made and technical challenges to be solved to make this system practically applicable.
+
+
+\subsection{NRGcoin}
+Another very interesting group of Blockchain applications in the energy sector are based on cryptocurrencies, where assets are incentivized by transferring them in coins.
+Mihaylov et al. \cite{mihaylov_nrgcoin} introduced a cryptocurrency called NRGcoin where coins are generated by injecting renewable energy into the grid instead of classical mining approaches which require a lot of computational power. One advantage of this approach over energy markets like \cite{123} \cite{456} is that the proposed market is not time-critical and reward does not depend on the specific time of order placement for pricing. 
+Earned NRGcoins through injecting energy surplus can then be used to purchase energy from the distribution system operator if required or can be exchanged for its monetary equivalent at an open exchange market. \newline
+As in the other approaches, smart meters at consumer and producer level are required to measure production and consumption rates. This information is then sent to substations of the distribution system operator in 15 minutes intervals and used for obtaining the amount of NRGcoins a prosumer gets for energy production and the amount a consumer is billed.
+It is important to know, that consumers, prosumers and the substations has to run the NRGcoin protocol. Furthermore, variable consumption and production rates are used to provide better rates to agents to aim in meeting the current demand and supply and therefore try to keep the network stable. \cite{mihaylov_nrgcoin}
+
+\subsubsection{NRGcoin System Overview:} Prosumers generate a surplus of renewable energy, feed this energy into the grid and send the information about this process to every node withing the NRGcoin network in order to update the distributed ledger. Prosumers then get reward from two entities, the connected substation and the NRG protocol itself. This reward is issued per time window and a substations reward NRGcoins based on the production and consumption of the prosumer and the NRG protocol rewards a certain amount to make new money enter the system to prevent NRGcoin from being deflationary. \newline
+An interesting aspect about NRGcoins is that their value is decoupled from their monetary market values and fed in renewable energy is just converted into NRGcoins applying two functions defined by Mihaylov et al. \cite{mihaylov_nrgcoin}. This mechanism decouples the rewarded NRGcoins from the expected monetary earnings. Due to the defined functions, a prosumer that feeds in energy at a timeslot of high demand gets a greater reward than feeding in at a time of energy surplus. The same prosumer will maximize earning on his NRGcoins by consuming energy in a timeslot of high supply. \newline
+As already mentioned, NRGcoins can be used to buy electricity from the distribution system operator. Moreover, there is an exchange market where agents can sell certain amounts of NRGcoins in exchange for fiat currencies. Consumers, that for example do not have any kind of renewable energy source installed, can purchase NRGcoins and further exchange them for electricity by their distribution system operator. This exchange market has quite similar features as proposed by Ilic et al. \cite{ilic_smart_grid_neighbourhoods}.
+Consumers pay a certain amount of NRGcoins to meet the required electricity demand. This amount of coins to be transferred to the distribution system operator is also obtained from a specific function. Thus, the operation of the NRGcoin protocol can be configured by three functions that are responsible for rewarding NRGcoins to prosumers, keeping the currency deflationary and purchasing coins from consumers. \cite{mihaylov_nrgcoin}
+Moreover, the exchange market makes profit from possible commission fees as well as from the difference between sell and buy bids that were matched.
+
+\subsubsection{Advantages} of the NRGcoin protocol can be found in demand and supply balancing as the system aims to shift the consumers demand to production peaks by applying variable rates and therefore agents aim for balancing the system out of self-interest. \newline
+Another positive aspect is, that the role of the distribution system operator remains very important as reliable forecasting techniques are required to meet demand in cases where the system will be imbalanced. Therefore, this entity will be responsible for providing external energy. Furthermore, distribution system operators will have a greater amount of money to invest in their network, because they reward prosumers with NRGcoins instead of fiat currency. Another important point is, that deploying the NRGcoin protocol might only require installation of smart meters and make substations smart instead of restructuring the whole distribution system’s infrastructure. \newline
+As NRGcoins only represent the amount of fed in renewable energy they can act as an international currency for green energy instead of only being a certificate for green energy consumption. Due to the deflationary mechanism and the asset representation the coins become time independent and can be used in the future to consume the same amount of energy that has been fed in in the past. \cite{mihaylov_nrgcoin}
+
+\subsubsection{Challenges} arise from the dependence of the NRGcoin on its community, as with many other cryptocurrencies. Market speculations and savings of a huge amount of coins can lead to great fluctuations in its trade value. Another challenge will be the integration of the NRGcoin protocol at distribution system operators and in a way larger scale. The amount of smart local substations enables good scalability of this system. \cite{mihaylov_nrgcoin} \newline
+Additionally, a big challenge for large scale applications will be to design the right blockchain setup to meet certain throughput and uptake rate \cite{mihaylov_nrgcoin2}.
+
+
+Finally, the researchers \cite{mihaylov_nrgcoin} built a demonstration platform of their system as proposed on their website \cite{nrgcoin_demo}. Unfortunately, the simulation results are not discussed. Nevertheless, this yields a very promising and sustainable approach to integrate renewable energy sources in a large scale with the use of blockchain, without the need of massive infrastructure adoptions.
+
 
 \section{Non-Blockchain based Decentralized Energy Markets}
 This section aims for introducing and discussing research and solutions regarding decentralized energy markets without application of Blockchain technology. Moreover, approaches that tackle the same goal as the related Blockchain based solution are discussed.
@@ -120,8 +144,9 @@ Ilic et al. \cite{ilic_smart_grid_neighbourhoods} simulated the discussed market
 This work shows a concept and simulation which provides useful data about a working decentralized energy market without the application of Blockchain technology. Although, such markets can automatically respond to supply and demand imbalance by price adoption, there will most likely be the situation in a real application that demand cannot be met by supply and external electricity is required as mentioned by Mengelkamp et al. \cite{mengelkamp_lem}. Besides that, scalability of the introduced market system is also not taken into account. This work gives great insight into how a local energy market can work from an economic point of view, but there are many open challenges to be addressed.
 
 
-
 \section{Conclusion}
+
+TODO
 
 %
 % ---- Bibliography ----
@@ -141,6 +166,16 @@ E. Mengelkamp, B. Notheisen, C. Beer, D. Dauer, C. Weinhardt: A blockchain-based
 
 \bibitem{ilic_smart_grid_neighbourhoods}
 D. Ilic, P. Goncalves Da Silva, S. Karnouskos, M. Griesemer: An energy market for trading electricity in smart grid neighbourhoods. In: 6th IEEE International Conference on Digital Ecosystems and Technologies, Campione d'Italia, Italy, pp. 1-6, 2012. \doi{10.1109/DEST.2012.6227918}
+
+\bibitem{mihaylov_nrgcoin}
+M. Mihaylov, S. Jurado, N. Avellana, K. Van Moffaert, I. M. de Abril and A. Nowé: NRGcoin: Virtual Currency for Trading of Renewable Energy in Smart Grids. In: 11th International Conference on the European Energy Market (EEM14), Krakow, pp. 1-6, 2014. \doi{10.1109/EEM.2014.6861213}
+
+\bibitem{mihaylov_nrgcoin2}
+Mihail Mihaylov, Iván Razo-Zapata, Ann Nowé: NRGcoin—A Blockchain-based Reward Mechanism for Both Production and Consumption of Renewable Energy. In: Transforming Climate Finance and Green Investment with Blockchains, Academic Press, pp. 111-131, 2018.
+\doi{10.1016/B978-0-12-814447-3.00009-4}
+
+\bibitem{nrgcoin_demo}
+NRGcoin Homepage, \url{https://nrgcoin.org/demonstration/}. Last accessed 13. Nov 2020
 
 \bibitem{ref_article1}
 Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
