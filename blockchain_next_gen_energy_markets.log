@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  13 NOV 2020 15:01
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  14 NOV 2020 19:28
  restricted system commands enabled.
 **blockchain_next_gen_energy_markets.tex
 (./blockchain_next_gen_energy_markets.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.316 seconds
+luaotfload | main : initialization completed in 0.468 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -284,46 +284,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[3] [4] [5]
+[3] [4]
+Overfull \hbox (1.25647pt too wide) in paragraph at lines 96--100
+\TU/lmr/m/n/10 Zia et al. [7] de-scribes the con-cept of trans-ac-tive en-ergy 
+as achiev-ing bi-directional
+ []
 
-LaTeX Warning: Citation `123' on page 6 undefined on input line 111.
+[5] [6] [7]
+
+LaTeX Warning: Citation `123' on page 8 undefined on input line 131.
 
 
-LaTeX Warning: Citation `456' on page 6 undefined on input line 111.
+LaTeX Warning: Citation `456' on page 8 undefined on input line 131.
 
-[6] [7] [8]
+[8] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 []\TU/lmr/m/n/9 Eu-ro-pean Par-lia-ment Home-page, https://www.eu-roparl.eu-rop
 a.eu/Reg-
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 165--166
+Underfull \hbox (badness 1609) in paragraph at lines 185--186
 \TU/lmr/m/n/9 based smart grid: to-wards sus-tain-able lo-cal en-ergy mar-kets.
  In: Com-puter
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 165--166
+Underfull \hbox (badness 1490) in paragraph at lines 185--186
 \TU/lmr/m/n/9 Sci-ence - Re-search and De-vel-op-ment, vol. 33, no. 1-2, pp. 20
 7-214, 2018.
  []
 
-[10] (./blockchain_next_gen_energy_markets.aux))
+[12] [13] (./blockchain_next_gen_energy_markets.aux))
 
 Here is how much of LuaTeX's memory you used:
- 1999 strings out of 494480
+ 2002 strings out of 494480
  100000,106986 words of node,token memory allocated
  884 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 disc, 8 glue, 9 kern, 57 glyph, 8 attribute, 49 g
 lue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:1,2:165,3:57,4:32,5:365,6:5797,7:1609,8:3,9:94,10:20,11:545
- 6033 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:168,3:63,4:32,5:395,6:6266,7:1698,8:3,9:101,10:23,11:597
+ 6036 multiletter control sequences out of 65536+600000
  32 fonts using 1591511 bytes
- 41i,5n,25p,1470b,189s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 41i,5n,25p,1470b,314s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
 ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><c:/texlive/2017/
 texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2017/texmf-
@@ -331,11 +337,11 @@ dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/
 fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr7.pfb>
-Output written on blockchain_next_gen_energy_markets.pdf (10 pages, 78434 bytes)
+Output written on blockchain_next_gen_energy_markets.pdf (13 pages, 87787 bytes)
 .
 
-PDF statistics: 78 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
