@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  14 NOV 2020 19:28
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  4 JAN 2021 14:45
  restricted system commands enabled.
 **blockchain_next_gen_energy_markets.tex
 (./blockchain_next_gen_energy_markets.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.468 seconds
+luaotfload | main : initialization completed in 0.249 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -276,60 +276,59 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 31.
 (load luc: C:/Users/marti/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman9-regular.luc)(load luc: C:/Users/marti/.texlive2017/texmf-var/luatex-cac
-he/generic/fonts/otl/lmroman9-bold.luc)(load luc: C:/Users/marti/.texlive2017/te
-xmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc) [1
+he/generic/fonts/otl/lmroman9-bold.luc)
+[1
 
-{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load luc: C:/Use
+rs/marti/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.lu
+c) [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-[3] [4]
-Overfull \hbox (1.25647pt too wide) in paragraph at lines 96--100
+[4]
+Overfull \hbox (1.25647pt too wide) in paragraph at lines 100--104
 \TU/lmr/m/n/10 Zia et al. [7] de-scribes the con-cept of trans-ac-tive en-ergy 
 as achiev-ing bi-directional
  []
 
-[5] [6] [7]
+[5] [6]
+Underfull \vbox (badness 4024) has occurred while \output is active []
 
-LaTeX Warning: Citation `123' on page 8 undefined on input line 131.
-
-
-LaTeX Warning: Citation `456' on page 8 undefined on input line 131.
-
-[8] [9] [10]
+ [7]
+[8] [9] [10] [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 []\TU/lmr/m/n/9 Eu-ro-pean Par-lia-ment Home-page, https://www.eu-roparl.eu-rop
 a.eu/Reg-
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 185--186
+Underfull \hbox (badness 1609) in paragraph at lines 188--189
 \TU/lmr/m/n/9 based smart grid: to-wards sus-tain-able lo-cal en-ergy mar-kets.
  In: Com-puter
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 185--186
+Underfull \hbox (badness 1490) in paragraph at lines 188--189
 \TU/lmr/m/n/9 Sci-ence - Re-search and De-vel-op-ment, vol. 33, no. 1-2, pp. 20
 7-214, 2018.
  []
 
-[12] [13] (./blockchain_next_gen_energy_markets.aux))
+[13] (./blockchain_next_gen_energy_markets.aux))
 
 Here is how much of LuaTeX's memory you used:
- 2002 strings out of 494480
+ 2000 strings out of 494480
  100000,106986 words of node,token memory allocated
  884 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 disc, 8 glue, 9 kern, 57 glyph, 8 attribute, 49 g
 lue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:1,2:168,3:63,4:32,5:395,6:6266,7:1698,8:3,9:101,10:23,11:597
- 6036 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:193,3:72,4:32,5:366,6:5770,7:1605,8:3,9:93,10:23,11:541
+ 6034 multiletter control sequences out of 65536+600000
  32 fonts using 1591511 bytes
- 41i,5n,25p,1470b,314s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 41i,5n,25p,1470b,184s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
 ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><c:/texlive/2017/
 texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2017/texmf-
@@ -337,7 +336,7 @@ dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/
 fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr7.pfb>
-Output written on blockchain_next_gen_energy_markets.pdf (13 pages, 87787 bytes)
+Output written on blockchain_next_gen_energy_markets.pdf (13 pages, 90362 bytes)
 .
 
 PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
