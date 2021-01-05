@@ -33,9 +33,6 @@
 \begin{abstract}
 The historically grown electricity system has to be adapted in the near future, since it heavily relies on fossil fuels which we will be running out. Moreover, its burning has strong impact on global warming. The emerge of renewable energy sources provide great alternatives to conventional sources, but there is a huge challenge integrating them in the current centralized system while remaining its stability and properly respond to demand and supply. Moreover, private owner of small scale renewable energy systems want to get better reward for their injected energy surplus. These arising challenges of a future electrical system can be tackled by introduction of a decentralized system. This work discusses current research and opportunities that Blockchain can provide to a future electricity system. Moreover, the current state is discussed as well as its challenges and challenges of a use of Blockchain technology is described. To sum this up, this work has a brief look at non Blockchain technologies that enable a peer-to-peer electrical system.
 
-The abstract should briefly summarize the contents of the paper in
-150--250 words.
-
 \keywords{Blockchain  \and Decentralized Energy Markets \and Decentralized Energy Trading \and Smart Grid}
 \end{abstract}
 %
@@ -160,15 +157,17 @@ Finally, the researchers \cite{mihaylov_nrgcoin} built a demonstration platform 
 \subsection{Blockchain in the Energy Industry}
 This section will discuss a few already used and promising platforms that leverage Blockchain technology. Most of them model a transactive energy system and even have their own cryptocurrency for incentivising the asset electricity. This is the reason why the previous section discussed transactive energy systems and coin based approaches in greater detail based on selected examples.
 
-\subsubsection{Prosume}
-Prosume is developing a very flexible platform that is enables to build transactive energy networks that utilize decentralized energy markets. The proposed platform will bring together utility companies, grid operator, system integrators and the (local) communities itself to build local energy ecosystems where trading is done using an online marketplace. In such a multi-tenant ecosystem, each peer can buy from and sell to any other peer. This integrates all entities of the current electrical system to the same extent and empowers private prosumers. The price and quantity of a transaction is obtained by trading algorithms based on auction clearings on the blockchain, as proposed by Mengelkamp \cite{mengelkamp_lem} as well. \newline
+\subsubsection{Prosume} is developing a very flexible platform that is enables to build transactive energy networks that utilize decentralized energy markets. The proposed platform will bring together utility companies, grid operator, system integrators and the (local) communities itself to build local energy ecosystems where trading is done using an online marketplace. In such a multi-tenant ecosystem, each peer can buy from and sell to any other peer. This integrates all entities of the current electrical system to the same extent and empowers private prosumers. The price and quantity of a transaction is obtained by trading algorithms based on auction clearings on the blockchain, as proposed by Mengelkamp \cite{mengelkamp_lem} as well. \newline
 This platform empowers locality of electricity generation and consumption as well as lead to greater electricity awareness. Prosume's solution is based on the Ethereum Blockchain an generates two kinds of tokens, one for trading purposes (PEF) and the other one for local transaction (TFT). \cite{prosume_wp}
 Prosume also ran proof of concepts in Styria and Barcelona and is developing a solution to integrate the smart home gateway "EUGENIO" with their platform (e-PROSUME) and will empower owners to dynamically manage their house's electricity consumption via smartphone. They further emphasized on monitoring and metering of various generation/consumption properties. \cite{prosume_briefing}
-This solution realized research proposals and is proving that the discussed principles of this work can actually applied in an economic way.
+This solution realized research proposals and is proving that the discussed principles of this work can actually applied in an economic way. Note that there are many companies developing similar transactive energy network solutions to Prosume.
+
+\subsubsection{Power Ledger} has developed a platform that enables interoperability of different market/pricing mechanisms through pre-purchased tokens. Their approach is scalable adaptable to regulatory boundaries as they provide a transparent governance framework that enables the Power Ledger ecosystem to interact with energy markets all over the world. This flexible system allows to adjust the system to the regulatory needs required at specific localities. The platform distinguishes between application hosts (retailers, utility companies, etc.) and consumers and is based on a dual token ecosystem where the POWR are frictionless Blockchain tokens to access the platform itself and Sparkz are "low level" tokens that are issued agains POWR tokens and actually used for trading on the platform. Sparkz therefore represents a tokenized unit of electricity in varying markets all over the world and maintain a steady exchange price between POWR tokens and the local market electricity prices. \cite{powerledger}
+Power Ledger aims for a sustainable solution by using a hybrid public and consortium Blockchain which will switch from PoW to PoS if the update Ethereum is released. The Power Ledger Core layer of their solution is the smart contract layer and implements the key components of the POWR token ecosystem. This layer further uses some services of the EcoChain, which is a private PoS Blockchain developed by Power Ledger which will be replaced with the consortium solution. This Blockchain setup is concluded by an application layer which is represented by their FuseBox which provides various applications, e.g. for asset management or energy exchange and many more. More detailed information can by obtained from their suitable whitepaper \cite{powerledger}.
 
 \section{Non-Blockchain based Decentralized Energy Markets}
 This section aims for introducing and discussing research and solutions regarding decentralized energy markets without application of Blockchain technology. Moreover, approaches that tackle the same goal as the related Blockchain based solution are discussed.
-
+TODO
 
 
 \section{Conclusion}
@@ -222,6 +221,9 @@ PROSUME Homepage, \url{https://prosume.io/wp-content/uploads/2017/09/white-paper
 
 \bibitem{prosume_briefing}
 PROSUME Homepage, \url{https://prosume.io/wp-content/uploads/PROSUME\_Commercial-Deck\_17012020.pdf}. Last accessed 05.01.2021
+
+\bibitem{powerledger}
+Power Ledger Homepage, \url{https://www.powerledger.io/wp-content/uploads/2019/11/power-ledger-whitepaper.pdf}. Last accessed 06.01.2021
 
 \end{thebibliography}
 \end{document}
