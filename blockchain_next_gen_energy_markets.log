@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  5 JAN 2021 18:41
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2018.4.10)  5 JAN 2021 19:20
  restricted system commands enabled.
 **blockchain_next_gen_energy_markets.tex
 (./blockchain_next_gen_energy_markets.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.379 seconds
+luaotfload | main : initialization completed in 0.702 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -296,64 +296,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--97
  []
 
 [6]
-Overfull \hbox (1.25647pt too wide) in paragraph at lines 103--107
+Overfull \hbox (1.25647pt too wide) in paragraph at lines 103--106
 \TU/lmr/m/n/10 Zia et al. [7] de-scribes the con-cept of trans-ac-tive en-ergy 
 as achiev-ing bi-directional
  []
 
-[7] [8] [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[7] [8] [9] [10] [11] [12]
+Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [10]
-[11] [12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+ [13]
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 []\TU/lmr/m/n/9 Eu-ro-pean Par-lia-ment Home-page, https://www.eu-roparl.eu-rop
 a.eu/Reg-
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 196--197
+Underfull \hbox (badness 1609) in paragraph at lines 191--192
 \TU/lmr/m/n/9 based smart grid: to-wards sus-tain-able lo-cal en-ergy mar-kets.
  In: Com-puter
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 196--197
+Underfull \hbox (badness 1490) in paragraph at lines 191--192
 \TU/lmr/m/n/9 Sci-ence - Re-search and De-vel-op-ment, vol. 33, no. 1-2, pp. 20
 7-214, 2018.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 []\TU/lmr/m/n/9 D. Yaga, P. Mell, N. Roby, K. Scar-fone: Blockchain tech-nol-og
 y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 \TU/lmr/m/n/9 overview. Na-tional In-sti-tute of Stan-dards and Tech-nol-ogy, O
 ct 2018,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 []\TU/lmr/m/n/9 PRO-SUME Home-page, https://pro-sume.io/wp-content/up-loads/PRO
 -
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 []\TU/lmr/m/n/9 Power Ledger Home-page, https://www.pow-erledger.io/wp-content/
 up-
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 234--235
+Underfull \hbox (badness 2671) in paragraph at lines 229--230
 \TU/lmr/m/n/9 ing in a Mi-cro-grid. In: Ap-plied En-ergy, Vol-ume 220, Pages 1-
 12, 2018,
  []
 
-[16] (./blockchain_next_gen_energy_markets.aux))
+[15] (./blockchain_next_gen_energy_markets.aux))
 
 Here is how much of LuaTeX's memory you used:
  2000 strings out of 494480
@@ -361,10 +361,10 @@ Here is how much of LuaTeX's memory you used:
  884 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 disc, 8 glue, 9 kern, 57 glyph, 8 attribute, 49 g
 lue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:1,2:181,3:71,4:31,5:483,6:7234,7:1824,8:3,9:109,10:23,11:751
+   avail lists: 1:1,2:183,3:73,4:31,5:414,6:6041,7:1599,8:3,9:92,10:21,11:635
  6034 multiletter control sequences out of 65536+600000
  32 fonts using 1591511 bytes
- 41i,5n,25p,1291b,315s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 41i,5n,25p,1231b,184s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
 ive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><c:/texlive/2017/
 texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2017/texmf-
@@ -372,11 +372,11 @@ dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/
 fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr7.pfb>
-Output written on blockchain_next_gen_energy_markets.pdf (16 pages, 97658 bytes)
+Output written on blockchain_next_gen_energy_markets.pdf (15 pages, 97070 bytes)
 .
 
-PDF statistics: 98 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+PDF statistics: 95 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
