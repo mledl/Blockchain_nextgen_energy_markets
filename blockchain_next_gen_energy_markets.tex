@@ -165,14 +165,19 @@ This solution realized research proposals and is proving that the discussed prin
 \subsubsection{Power Ledger} has developed a platform that enables interoperability of different market/pricing mechanisms through pre-purchased tokens. Their approach is scalable adaptable to regulatory boundaries as they provide a transparent governance framework that enables the Power Ledger ecosystem to interact with energy markets all over the world. This flexible system allows to adjust the system to the regulatory needs required at specific localities. The platform distinguishes between application hosts (retailers, utility companies, etc.) and consumers and is based on a dual token ecosystem where the POWR are frictionless Blockchain tokens to access the platform itself and Sparkz are "low level" tokens that are issued agains POWR tokens and actually used for trading on the platform. Sparkz therefore represents a tokenized unit of electricity in varying markets all over the world and maintain a steady exchange price between POWR tokens and the local market electricity prices. \cite{powerledger}
 Power Ledger aims for a sustainable solution by using a hybrid public and consortium Blockchain which will switch from PoW to PoS if the update Ethereum is released. The Power Ledger Core layer of their solution is the smart contract layer and implements the key components of the POWR token ecosystem. This layer further uses some services of the EcoChain, which is a private PoS Blockchain developed by Power Ledger which will be replaced with the consortium solution. This Blockchain setup is concluded by an application layer which is represented by their FuseBox which provides various applications, e.g. for asset management or energy exchange and many more. More detailed information can by obtained from their suitable whitepaper \cite{powerledger}.
 
-\section{Non-Blockchain based Decentralized Energy Markets}
-This section aims for introducing and discussing research and solutions regarding decentralized energy markets without application of Blockchain technology. Moreover, approaches that tackle the same goal as the related Blockchain based solution are discussed.
-TODO
+\section{Non-Blockchain based Energy Trading}
+This section aims for introducing and discussing research regarding decentralized energy markets without application of Blockchain technology.
+
+\subsection{Elecbay}
+Zhang \cite{elecbay} proposed a software platform for P2P energy trading in a grid-connected Microgrid without the use of Blockchain technology. The entities interacting with Elecbay are buyers, sellers, suppliers and DSOs. Sellers list their energy items (e.g. surplus over half an hour) for sale on Elecbay and buyers can browse through listed items and select fits. This can also take place the other way around. After orders are placed by peers, Elecbay accepts or rejects those orders based on evaluation of defined network constraints (e.g. voltage excursion, etc.). After this, the corresponding peer generate/consume the traded energy and this actual generation/consumption is tracked by smart meters. Peers that fail to generate/consume the traded amount will be penalized or will be required to traded with peers with worse conditions. Elecbay further provides services for load balancing and all payments are also made to the platform. Elecbay deduces a service fee and then passes money to sellers, suppliers, DSOs. \newline
+The researchers further defined a time schedule with periods for publishing and biding, energy exchange and settlement as well as a gate closing time and a due date for billing. They further simulated their platform using game theory and different energy constraints. They concluded that their platform comes with the already discussed benefits of P2P energy trading and a potential change in consuming behaviour. The further state that reforms to energy policies and laws are required to make such systems applicable. \cite{elecbay}
+
+Ilic et al. \cite{ilic_smart_grid_neighbourhoods} developed a similar trading system that comes with a variety of market modules for verification, matching and management purposes of the energy market. They simulated their proposed market using a Java implementation and showed the market's efficiency with respect to trading prices and load balancing. \newline
+This section is rather minimal since research mainly deals with energy market implementations which have already been discussed. 
 
 
 \section{Conclusion}
 
-TODO
 
 %
 % ---- Bibliography ----
@@ -224,6 +229,9 @@ PROSUME Homepage, \url{https://prosume.io/wp-content/uploads/PROSUME\_Commercial
 
 \bibitem{powerledger}
 Power Ledger Homepage, \url{https://www.powerledger.io/wp-content/uploads/2019/11/power-ledger-whitepaper.pdf}. Last accessed 06.01.2021
+
+\bibitem{elecbay}
+C. Zhang, J. Wu, Y. Zhou, M. Cheng, C. Long: Peer-to-Peer energy trading in a Microgrid. In: Applied Energy, Volume 220, Pages 1-12, 2018, \doi{10.1016/j.apenergy.2018.03.010}
 
 \end{thebibliography}
 \end{document}
